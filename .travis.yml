@@ -1,0 +1,6 @@
+os: linux
+dist: bionic
+language: cpp
+script:
+- cmake .
+- cmake --build .
