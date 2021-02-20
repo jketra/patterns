@@ -7,7 +7,7 @@
 
 #include <gtest/gtest.h>
 
-namespace test{
+namespace test {
 
 class CreationalPatternsTests : public ::testing::Test {
 public:
@@ -35,7 +35,5 @@ TEST_F(CreationalPatternsTests, TwoThreads) {
         t1.join();
         t2.join();
 }
-
-
 
 }
