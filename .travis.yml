@@ -1,6 +1,16 @@
 os: linux
 dist: bionic
 language: cpp
+before_script:
+- sudo apt-get install libgtest-dev -y
+- sudo apt-get install cmake -y
+- mkdir temp
+- cd temp
+- cmake -DBUILD_SHARED_LIBS=ON /usr/src/gtest/
+- cmake --build .
+- sudo cp *.so /usr/lib
+- cd ..
 script:
 - cmake .
 - cmake --build .
+- cmake --build . --target test
