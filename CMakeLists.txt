@@ -23,5 +23,6 @@ find_package(GTest REQUIRED)
 
 # directories
 #
+add_subdirectory(behavioral)
 add_subdirectory(creational)
 add_subdirectory(tests)

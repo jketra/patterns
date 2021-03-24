@@ -1,4 +1,5 @@
-﻿#include "CreationalPatternsTests.h"
+﻿#include "SingletonTests.h"
+#include "StrategyTests.h"
 
 #include <gtest/gtest.h>
 
