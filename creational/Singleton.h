@@ -1,6 +1,6 @@
 #pragma once
 
-namespace not_safe {
+namespace patterns {
 
 class Singleton {
 public:
