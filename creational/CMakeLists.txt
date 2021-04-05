@@ -2,7 +2,8 @@
 
 project(Creational)
 
-set(_headers Singleton.h)
+set(_headers FactoryMethod.h
+             Singleton.h)
 
 add_library(${PROJECT_NAME} INTERFACE)
 

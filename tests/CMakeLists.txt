@@ -3,7 +3,8 @@
 project(PatternsTests)
 
 set(_sources PatternsTests.cpp)
-set(_headers SingletonTests.h
+set(_headers FactoryMethodTests.h
+             SingletonTests.h
              StrategyTests.h)
 
 add_executable(${PROJECT_NAME} ${_sources} ${_headers})

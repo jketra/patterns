@@ -9,7 +9,7 @@
 namespace patterns {
 namespace test {
 
-TEST(StrategyTests, Nasledovanie) {
+TEST(StrategyTests, Inheritance) {
 
 	Context context;
 
